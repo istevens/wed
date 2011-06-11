@@ -241,6 +241,10 @@ p {
     font-weight: bold;
 }
 
+nav#main {
+    display: none;
+}
+
 /**
  * Placeholder media queries for responsive design. Modify as design requires.
  * These follow after, and will override, the primary ('mobile first') styles
@@ -249,6 +253,32 @@ p {
 @media only screen and (min-width: 480px) {
     body {
         margin: 2em
+    }
+
+    nav#main {
+        display: block;
+    }
+
+    html.js section.main {
+        display: none;
+    }
+
+    nav#main {
+        font-size: 175%;
+        margin-top: 1em;
+    }
+
+    nav#main ul li {
+        display: inline-block;
+        margin: 0.75em;
+    }
+
+    nav#main ul li a {
+        white-space: nowrap;
+        text-decoration: none;
+    }
+
+    nav#main ul li a:hover {
     }
 }
 
