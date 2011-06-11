@@ -205,6 +205,41 @@ a:link { -webkit-tap-highlight-color: #FF5E99; } /* j.mp/webkit-tap-highlight-co
 .clearfix { zoom: 1; }
 
 
+/*
+ * My styles.
+ */
+
+body {
+    margin: 0.5em;
+}
+
+header {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 400%;
+    line-height: 1em;
+}
+
+header h2 {
+    margin-top: 1em;
+    font-size: 200%;
+}
+
+.main {
+    margin-top: 2em;
+    font-size: 150%;
+}
+
+p {
+    margin-top: 1em;
+}
+
+.vevent span, .vevent abbr {
+    font-weight: bold;
+}
 
 /**
  * Placeholder media queries for responsive design. Modify as design requires.
@@ -212,8 +247,9 @@ a:link { -webkit-tap-highlight-color: #FF5E99; } /* j.mp/webkit-tap-highlight-co
  */
 
 @media only screen and (min-width: 480px) {
-    /* Style adjustments for viewports 480px and over go here */
-
+    body {
+        margin: 2em
+    }
 }
 
 @media only screen and (min-width: 768px) {
