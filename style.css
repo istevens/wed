@@ -161,19 +161,37 @@ a:link { -webkit-tap-highlight-color: #FF5E99; } /* j.mp/webkit-tap-highlight-co
  * Author: 
  */
 
+body {
+    margin: 0.5em;
+    font-family: Copse, sans-serif;
+}
 
+header {
+    text-transform: capitalize;
+    text-align: center;
+}
 
+header h1 {
+    font-size: 350%;
+    line-height: 1em;
+}
 
+.main {
+    margin-top: 2em;
+    font-size: 150%;
+}
 
+.main h1 {
+    font-size: 150%;
+}
 
+p {
+    margin-top: 1em;
+}
 
-
-
-
-
-
-
-
+.vevent span, .vevent abbr {
+    font-weight: bold;
+}
 
 
 /**
@@ -205,85 +223,31 @@ a:link { -webkit-tap-highlight-color: #FF5E99; } /* j.mp/webkit-tap-highlight-co
 .clearfix { zoom: 1; }
 
 
-/*
- * My styles.
- */
-
-body {
-    margin: 0.5em;
-}
-
-header {
-    text-transform: capitalize;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 400%;
-    line-height: 1em;
-}
-
-header h2 {
-    margin-top: 1em;
-    font-size: 200%;
-}
-
-.main {
-    margin-top: 2em;
-    font-size: 150%;
-}
-
-p {
-    margin-top: 1em;
-}
-
-.vevent span, .vevent abbr {
-    font-weight: bold;
-}
-
-nav#main {
-    display: none;
-}
-
 /**
  * Placeholder media queries for responsive design. Modify as design requires.
  * These follow after, and will override, the primary ('mobile first') styles
  */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 30em) {
     body {
         margin: 2em
     }
 
-    nav#main {
+    header h1 span {
+        font-size: 150%;
         display: block;
-    }
-
-    html.js section.main {
-        display: none;
-    }
-
-    nav#main {
-        font-size: 175%;
-        margin-top: 1em;
-    }
-
-    nav#main ul li {
-        display: inline-block;
-        margin: 0.75em;
-    }
-
-    nav#main ul li a {
-        white-space: nowrap;
-        text-decoration: none;
-    }
-
-    nav#main ul li a:hover {
+        line-height: 1em;
     }
 }
 
-@media only screen and (min-width: 768px) {
-    /* Style adjustments for viewports 768px and over go here */
+@media only screen and (min-width: 50em) {
+    header h1 {
+        width: 15em;
+    }
+
+    header {
+
+    }
 
 }
 
