@@ -232,8 +232,9 @@ p {
     margin-top: 1em;
 }
 
-.vevent span, .vevent abbr {
+.vevent .detail {
     font-weight: bold;
+    border: none;
 }
 
 
