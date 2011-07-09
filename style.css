@@ -287,6 +287,9 @@ p {
 }
 
 @media only screen and (min-width: 50em) {
+    .main p {
+        width: 40em;
+    }
 }
 
 
