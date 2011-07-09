@@ -162,7 +162,7 @@ a:link { -webkit-tap-highlight-color: #FF5E99; } /* j.mp/webkit-tap-highlight-co
  */
 
 body {
-    font-family: Copse, sans-serif;
+    font-family: Copse, Garamond, serif;
 }
 
 header {
@@ -179,6 +179,38 @@ header h1 {
     -moz-text-stroke: 0.01em #444;
     width: 5em;
     padding: 0.5em 3em 1em 0;
+}
+
+#main_menu {
+    color: default;
+    background: white;
+    font-size: 150%;
+}
+
+#main_menu li {
+    display: inline;
+    white-space: nowrap;
+    margin: 0 0.25em 0 0;
+}
+
+#main_menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main_menu a:hover {
+    text-decoration: underline;
+}
+
+#main_menu li:before {
+    font-size: 50%;
+    content: '\25e6';
+    padding: 0 0.5em 0 0;
+    vertical-align: 25%
+}
+
+#main_menu li:first-child:before {
+    content: none;
 }
 
 .main {
