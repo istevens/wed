@@ -168,6 +168,9 @@ body {
 header {
     text-transform: capitalize;
     text-align: center;
+}
+
+header div {
     background: black url(drake_small.jpg) no-repeat;
 }
 
@@ -177,7 +180,7 @@ header h1 {
     color: white;
     -webkit-text-stroke: 0.01em;
     width: 5em;
-    padding: 0.5em 3em 1em 0;
+    padding: 0.5em 3em 0.5em 0;
     font-weight: normal;
 }
 
