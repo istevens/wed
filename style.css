@@ -167,7 +167,6 @@ body {
 
 header {
     text-transform: capitalize;
-    text-align: center;
 }
 
 header div {
@@ -175,6 +174,7 @@ header div {
 }
 
 header h1 {
+    text-align: center;
     font-size: 225%;
     line-height: 1em;
     color: white;
@@ -192,6 +192,7 @@ header h1 span {
 }
 
 #main_menu {
+    text-align: center;
     padding: 0.5em;
     color: default;
     background: white;
@@ -289,7 +290,7 @@ p {
 
 @media only screen and (min-width: 50em) {
     .main {
-        margin: 2em 2em 3em 2em;
+        margin: 2em;
     }
 
     .main p {
