@@ -170,7 +170,7 @@ header {
 }
 
 header div {
-    background: black url(drake_small.jpg) no-repeat;
+    background: black url(drake_sm.jpg) no-repeat;
 }
 
 header h1 {
@@ -295,6 +295,10 @@ p {
 
     .main p {
         max-width: 40em;
+    }
+
+    header div {
+        background: black url(drake_med.jpg) no-repeat;
     }
 }
 
