@@ -243,6 +243,7 @@ p, iframe {
 iframe {
     width: 100%;
     max-width: 560px;
+    border: 0;
 }
 
 .vevent .detail {
